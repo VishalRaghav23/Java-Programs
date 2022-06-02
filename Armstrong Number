@@ -1,0 +1,23 @@
+import java.util.*;
+public class Quest3 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("enter the number");
+        int n = scan.nextInt();
+        int r = 0, a;
+        int temp = n;
+
+        System.out.println("the number is "+ n);
+        for (; n > 0;) {
+
+            a = n % 10;
+            r = r + (a * a * a);
+            n = n / 10;
+        }
+        if (r == temp) {
+            System.out.println("armstrong");
+        } else {
+            System.out.println("not armstrong ");
+        }
+    }
+}
