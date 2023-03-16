@@ -1,5 +1,5 @@
 # Java-Programs
-# Using String
+// Using String
 
 public class Main
 {
@@ -12,3 +12,22 @@ public class Main
             }
     }
 }
+
+// Without String
+
+ for(int i = 1; i<10; i++){
+            int o =10;
+            int y = o - i; 
+            for(int j = 0; j < i; j++){
+                
+                System.out.print(y);
+                y++;
+            }
+            System.out.print(0);
+            
+            for(int j = 0; j < i; j++){
+                o--;
+                System.out.print(o);
+            }
+            System.out.println();
+        }
