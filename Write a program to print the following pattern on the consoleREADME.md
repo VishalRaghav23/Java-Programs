@@ -1,5 +1,4 @@
 # Java-Programs
-// Using String
 
 public class Main
 {
